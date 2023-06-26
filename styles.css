@@ -7,13 +7,13 @@ body {
 
 
 h1 {
-    font-size: 100px;
+    font-size: 36px;
+    margin-top: 100px;
+}
+.button-container {
+    padding-top: 50px;
 }
 
-img {
-    width: 200px;
-    height: 200px;
-}
 
 .button {
     display: inline-block;
