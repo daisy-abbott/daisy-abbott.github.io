@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+}
+
+.banner {
+    background: #472138;
+}
+
+.banner_content {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner_button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+body {
+    text-align: center;
+    background-image: url("Assets/websitebackground.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
