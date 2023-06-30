@@ -3,7 +3,7 @@ html, body {
 }
 
 .banner {
-    background: #472138;
+    background: #0b2c2d;
 }
 
 .banner_content {
@@ -36,7 +36,7 @@ html, body {
 
 body {
     text-align: center;
-    background-image: url("Assets/weback.jpg");
+    background-image: url("Assets/home3.jpg");
     background-size: cover;
     color: white;
 }

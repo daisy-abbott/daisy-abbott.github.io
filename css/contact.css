@@ -3,7 +3,7 @@ html, body {
 }
 
 .banner {
-    background: #472138;
+    background: #0b2c2d;
 }
 
 .banner_content {
@@ -36,9 +36,9 @@ html, body {
 
 body {
     text-align: center;
-    background-image: url("Assets/websitebackground.jpg");
+    
     background-size: cover;
-    color: white;
+    color: rgb(10, 3, 3);
 }
 
 .center-content {
@@ -47,3 +47,32 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; /* Adjust the margin as needed */
+}
+
+.contact-button {
+    margin: 0 10px; /* Adjust the spacing between buttons as needed */
+    color: #000000; /* Example color: white */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 40px; /* Adjust the font size to make the icons bigger */
+}
+.contact-text1{
+    font-size: 45px;
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  .live-text h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(30, end);
+  }
