@@ -1,0 +1,140 @@
+html,
+body {
+  margin: 0;
+}
+
+.banner {
+  background: #0b2c2d;
+}
+
+.banner_content {
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}
+
+.banner_button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.conference-pic-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  /* Adjust the margin as needed */
+}
+
+.conference-pic {
+  width: 400px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintain the aspect ratio */
+  z-index: 1;
+  /* Place it above the background */
+  padding-top: 350px;
+  padding-right: 150px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.section-title {
+  font-size: 30px;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #25613b;
+  font-family: "Poppins", sans-serif;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #25613b;
+  position: relative;
+  font-style: open;
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #25613b;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.925);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fffafa;
+  border: 2px solid #265a39;
+  font-family: "Poppins", sans-serif;
+}

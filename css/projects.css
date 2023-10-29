@@ -1,0 +1,71 @@
+html,
+body {
+    margin: 0;
+}
+
+.banner {
+    background: #0b2c2d;
+}
+
+.banner_content {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
+}
+
+.banner_button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.projects-page {
+    text-align: center;
+    /* Center the text horizontally */
+    margin-top: 50px;
+    /* Adjust the top margin to position it as desired */
+    font-size: 24px;
+    /* Increase the font size as needed */
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+}
+
+/* Reset default margin and padding on body and container */
+body,
+.image-container {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the container horizontally and add some spacing between images */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Adjust the gap between images as needed */
+}
+
+/* Style the individual images */
+.image-container img {
+    max-width: 100%;
+    /* Ensure images don't exceed their container */
+    height: auto;
+}
