@@ -33,6 +33,13 @@ body {
     font-family: "Poppins", sans-serif;
     border-radius: 5px;
     margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.banner_button:hover {
+    background-color: #04545a;
+    /* Darker shade of your banner button color on hover */
 }
 
 .projects-page {
@@ -54,13 +61,49 @@ body,
     padding: 0;
 }
 
+.container {
+    margin-left: 200px;
+    /* Center the content horizontally within this container */
+}
+
 /* Center the container horizontally and add some spacing between images */
-.image-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    /* Adjust the gap between images as needed */
+.decision-tree {
+    width: 350px;
+
+
+}
+
+
+
+.decision-tree-button {
+    display: inline-block;
+
+    margin: 10px;
+
+    background-color: #18361a;
+
+    /* Green background color */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Optional: Adds rounded corners */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    /* Set font size */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition effect */
+
+}
+
+.decision-tree-button:hover {
+    background-color: #4CAF50;
+    font-family: "Poppins", sans-serif;
 }
 
 /* Style the individual images */

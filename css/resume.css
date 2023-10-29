@@ -33,6 +33,13 @@ body {
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
   margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.banner_button:hover {
+  background-color: #04545a;
+  /* Darker shade of your banner button color on hover */
 }
 
 .conference-pic-container {
@@ -76,14 +83,14 @@ body {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #25613b;
+  color: #133d3e;
   font-family: "Poppins", sans-serif;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #25613b;
+  border-left: 2px solid #133d3e;
   position: relative;
   font-style: open;
   color: rgb(0, 0, 0);
@@ -96,7 +103,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   font-family: sans-serif;
-  color: #25613b;
+  color: #133d3e;
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
 }
