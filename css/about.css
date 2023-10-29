@@ -38,8 +38,8 @@ body {
 body {
     text-align: center;
     background-size: cover;
-    color: white;
-    background-image: url(' css/Assets/sunsetaback.jpeg');
+
+    background-image: url('css/Assets/sunsetaback.jpeg');
 
 }
 
