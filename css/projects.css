@@ -61,6 +61,8 @@ body,
     padding: 0;
 }
 
+
+
 .container {
     margin-left: 200px;
     /* Center the content horizontally within this container */
@@ -70,7 +72,31 @@ body,
 .decision-tree {
     width: 350px;
 
+}
 
+.container1 {
+    margin-left: 800px;
+    margin-top: -1620px;
+}
+
+.Arcs-Project {
+    width: 360px;
+}
+
+.hexapawn {
+    width: 350px;
+}
+
+.shortest-path {
+    width: 350px;
+}
+
+.compression {
+    width: 350px;
+}
+
+.website {
+    width: 350px;
 }
 
 
@@ -102,6 +128,166 @@ body,
 }
 
 .decision-tree-button:hover {
+    background-color: #4CAF50;
+    font-family: "Poppins", sans-serif;
+}
+
+.Projects-button {
+    display: inline-block;
+
+    margin: 10px;
+
+    background-color: #18361a;
+
+    /* Green background color */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Optional: Adds rounded corners */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    /* Set font size */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition effect */
+
+}
+
+.Projects-button:hover {
+    background-color: #4CAF50;
+    font-family: "Poppins", sans-serif;
+}
+
+/* hexapawn */
+.hexapawn-button {
+    display: inline-block;
+
+    margin: 10px;
+
+    background-color: #18361a;
+
+    /* Green background color */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Optional: Adds rounded corners */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    /* Set font size */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition effect */
+
+}
+
+.hexapawn-button:hover {
+    background-color: #4CAF50;
+    font-family: "Poppins", sans-serif;
+}
+
+/* shortest path*/
+/* hexapawn */
+.shortest-path-button {
+    display: inline-block;
+
+    margin: 10px;
+
+    background-color: #18361a;
+
+    /* Green background color */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Optional: Adds rounded corners */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    /* Set font size */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition effect */
+
+}
+
+.shortest-path-button:hover {
+    background-color: #4CAF50;
+    font-family: "Poppins", sans-serif;
+}
+
+/*compression*/
+.compression-button {
+    display: inline-block;
+
+    margin: 10px;
+
+    background-color: #18361a;
+
+    /* Green background color */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Optional: Adds rounded corners */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    /* Set font size */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition effect */
+
+}
+
+.compression-button:hover {
+    background-color: #4CAF50;
+    font-family: "Poppins", sans-serif;
+}
+
+/*personal website*/
+.website-button {
+    display: inline-block;
+
+    margin: 10px;
+
+    background-color: #18361a;
+
+    /* Green background color */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Optional: Adds rounded corners */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    /* Set font size */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition effect */
+
+}
+
+.website-button:hover {
     background-color: #4CAF50;
     font-family: "Poppins", sans-serif;
 }
